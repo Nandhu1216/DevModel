@@ -12,5 +12,12 @@
     "projectTitle": "AI Chatbot",
     "description": "Conversational AI for e-commerce product suggestions",
     "website": "https://example.com/chatbot"
+  },
+  {
+    "id": 1761803527315,
+    "studentName": "nandhu",
+    "projectTitle": "Student Portfolio Management System",
+    "description": "Student Portfolio Management System",
+    "website": "http://localhost:3000/"
   }
 ]
