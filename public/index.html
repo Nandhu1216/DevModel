@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio Management</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Student Portfolio Management System</h1>
+
+  <div class="form-container">
+    <input type="hidden" id="projectId" />
+    <input type="text" id="studentName" placeholder="Student Name" />
+    <input type="text" id="projectTitle" placeholder="Project Title" />
+    <input type="text" id="description" placeholder="Description" />
+    <input type="text" id="website" placeholder="Website Link" />
+    <button id="addBtn">Add Project</button>
+    <button id="updateBtn" style="display:none;">Update Project</button>
+  </div>
+
+  <div class="search-box">
+    <input type="text" id="search" placeholder="Search by Student or Project..." />
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Student Name</th>
+        <th>Project Title</th>
+        <th>Description</th>
+        <th>Website</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="projectTable"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "studentName": "Nandhu V",
+    "projectTitle": "Cloud Vault",
+    "description": "Secure Flutter-based file management system",
+    "website": "https://example.com/cloudvault"
+  },
+  {
+    "id": 2,
+    "studentName": "Priya S",
+    "projectTitle": "AI Chatbot",
+    "description": "Conversational AI for e-commerce product suggestions",
+    "website": "https://example.com/chatbot"
+  }
+]
